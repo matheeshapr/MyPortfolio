@@ -1,0 +1,23 @@
+.hero-section {
+    background: radial-gradient(circle at 0% 0%, #1a1a1a 0%, #000000 100%);
+}
+
+.text-success {
+    color: #00ff88 !important; /* පොඩි Neon Green vibe එකක් */
+}
+
+.btn-success {
+    background-color: #00ff88;
+    border: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.profile-img-container {
+    transition: all 0.5s ease;
+}
+
+.profile-img-container:hover {
+    border-color: #00ff88 !important;
+    transform: scale(1.02);
+}
