@@ -18,9 +18,11 @@ export class AppComponent implements OnInit {
   title = 'my-portfolio';
 
   ngOnInit() {
-    AOS.init({
-      duration: 1000, // animation එක වෙන්න යන වෙලාව (ms)
-      once: true      // එක පාරක් විතරක් animate වෙන්න
-    });
-  }
+  AOS.init({
+    duration: 1000,
+    once: false,   
+    mirror: true,  
+    offset: 100    
+  });
+}
 }
